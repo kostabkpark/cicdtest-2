@@ -27,7 +27,6 @@ jobs:
 
       - name: jar 파일 빌드하기
         run: |
-          ls -al
           chmod +x ./gradlew
           ./gradlew clean build
 
